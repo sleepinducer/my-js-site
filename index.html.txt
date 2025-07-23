@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My JS Test</title>
+</head>
+<body>
+  <h1>Hello World</h1>
+  <button onclick="changeText()">Click Me</button>
+
+  <script>
+    function changeText() {
+      document.querySelector("h1").textContent = "Changed by JavaScript!";
+    }
+  </script>
+</body>
+</html>
